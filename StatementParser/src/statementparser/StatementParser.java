@@ -5,7 +5,7 @@
  */
 package statementparser;
 
-import org.w3c.dom.Document;
+import java.io.File;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -16,17 +16,19 @@ import statementparser.datamodel.Transaction;
  *
  * @author YNZ
  */
-public class StatementParser {
+public class StatementParser extends XmlParser {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Statement statement = new Statement();
-        XmlParser xmlParser = new XmlParser(new RawXml().file);
-        Document doc = xmlParser.getDoucment();
+    private Statement statement;
 
-        NodeList rows = doc.getElementsByTagName("Row");
+    public StatementParser(File inputFile, Statement statement) {
+        super(inputFile);
+        this.statement = statement;
+    }
+
+    @Override
+    public void parsing() {
+        //XmlParser xmlParser = new super(new RawXml().file);
+        NodeList rows = getDoucment().getElementsByTagName("Row");
 
         for (int i = 0; i < rows.getLength(); i++) {
 
@@ -36,18 +38,20 @@ public class StatementParser {
                 NodeList cells = rowElement.getElementsByTagName("Data");
 
                 Transaction transaction = new Transaction();
+                transaction.setDate(cells.item(0).getTextContent().trim());
+                transaction.setText(cells.item(1).getTextContent().trim());
+                transaction.setAmount(cells.item(2).getTextContent().trim());
+                transaction.setBalance(cells.item(3).getTextContent().trim());
+                transaction.setStatus(cells.item(4).getTextContent().trim());
+                transaction.setReconciled(cells.item(5).getTextContent().trim());
 
-                transaction.setDate(cells.item(0).getTextContent());
-                transaction.setText(cells.item(1).getTextContent());
-                transaction.setAmount(cells.item(2).getTextContent());
-                transaction.setBalance(cells.item(3).getTextContent());
-                transaction.setStatus(cells.item(4).getTextContent());
-                transaction.setReconciled(cells.item(5).getTextContent());
-                
-                System.out.println(transaction.toString());
-                
                 statement.addTransaction(transaction);
             }
         }
+    }
+
+    @Override
+    public Statement getStatement() {
+        return statement;
     }
 }

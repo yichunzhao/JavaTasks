@@ -14,7 +14,7 @@ import org.xml.sax.SAXException;
  *
  * @author YNZ
  */
-public class XmlParser {
+public abstract class XmlParser implements Parser{
 
     private DocumentBuilderFactory factory;
     private DocumentBuilder documentBuilder;

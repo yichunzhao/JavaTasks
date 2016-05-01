@@ -4,18 +4,17 @@
  * and open the template in the editor.
  */
 package statementparser;
-import java.util.*;
+
+import statementparser.datamodel.Statement;
 
 /**
  *
  * @author YNZ
  */
 public interface Parser {
-   Map<String,Float> findInitalBalance();
-   Boolean isCredit();
-   void catogryTransactions();
-   Float sumCatoryExpense();
-   Float findColsingBalance();
-   Float totalCategoryExpense();
-    
+
+    void parsing();
+
+    Statement getStatement();
+
 }
