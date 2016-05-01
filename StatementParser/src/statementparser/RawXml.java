@@ -5,10 +5,17 @@
  */
 package statementparser;
 
+import java.io.File;
+
 /**
  *
  * @author YNZ
  */
-class inputFile {
+class RawXml {
+    public File file;
+
+    public RawXml() {
+        file = new File("src/statementparser/Statement-20160428.xml"); 
+    }
     
 }

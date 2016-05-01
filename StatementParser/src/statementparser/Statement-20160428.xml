@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:o="urn:schemas-microsoft-com:office:office"
+          xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40">
+    <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+            <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+            <Borders/>
+            <Font/>
+            <Interior/>
+            <NumberFormat/>
+            <Protection/>
+        </Style>
+        <Style ss:ID="title">
+            <Font ss:Bold="1"/>
+        </Style>
+        <Style ss:ID="tright">
+            <Alignment ss:Horizontal="Right"/>
+            <Font ss:Bold="1"/>
+        </Style>
+        <Style ss:ID="tcenter">
+            <Alignment ss:Horizontal="Center"/>
+            <Font ss:Bold="1"/>
+        </Style>
+        <Style ss:ID="dt1">
+            <NumberFormat ss:Format="dd\.mm\.yyyy;@"/>
+        </Style>
+        <Style ss:ID="n02">
+            <NumberFormat ss:Format="#,##0.00"/>
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="KBBevEkspL-03375772">
+        <Table>
+            <Column ss:StyleID="dt1" ss:AutoFitWidth="1" ss:Width="60"/>
+            <Column ss:Width="120"/>
+            <Column ss:StyleID="n02" ss:AutoFitWidth="1" ss:Width="80"/>
+            <Column ss:StyleID="n02" ss:AutoFitWidth="1" ss:Width="80"/>
+            <Column ss:Width="40"/>
+            <Column ss:Width="60"/>
+            <Row>
+                <Cell ss:StyleID="title">
+                    <Data ss:Type="String">Date</Data>
+                </Cell>
+                <Cell ss:StyleID="title">
+                    <Data ss:Type="String">Text</Data>
+                </Cell>
+                <Cell ss:StyleID="tright">
+                    <Data ss:Type="String">Amount</Data>
+                </Cell>
+                <Cell ss:StyleID="tright">
+                    <Data ss:Type="String">Balance</Data>
+                </Cell>
+                <Cell ss:StyleID="title">
+                    <Data ss:Type="String">Status</Data>
+                </Cell>
+                <Cell ss:StyleID="title">
+                    <Data ss:Type="String">Reconciled</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">01.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Fitness World A/S (108)</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-108.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">413276.67</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">01.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Akademikernes A-Kasse</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-1281.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">411995.67</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">01.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    93474</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-168.85</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">411826.82</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">E/F Matr.Nr.1265 af Emdr</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-2934.85</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408891.97</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                
+                <Cell>
+                    <Data ss:Type="String">LIDL               59774</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-122.70</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408769.27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    39113</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-73.95</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408695.32</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Elite Købmand      07700</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408651.32</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Føtex Nørrebro     30403</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-107.19</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408544.13</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               60653</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-85.20</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408458.93</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    97317</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-36.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408422.93</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">04.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    97319</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-13.20</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408409.73</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">05.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    98253</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-53.55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408356.18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">06.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Dividend shs 3020830069</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">659.19</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">409015.37</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">06.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               41384</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-102.15</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408913.22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">06.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Bog &amp; Idé Nørrebro 86460</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-6.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408907.22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">06.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Tagensvej Købmand  39484</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408863.22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">08.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Service Kiosken    98142</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408819.22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">08.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    02253</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-40.40</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408778.82</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">11.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Transf. f 4560231318</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">29.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408808.27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">11.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Tips &amp; Lotto       88292</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408764.27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">11.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Istanbul Bazar     45230</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-91.50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408672.77</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">11.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    04593</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-120.25</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408552.52</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">11.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               44647</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-243.46</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408309.06</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">11.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Lygten       78969</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-81.50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408227.56</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">11.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Service Kiosken    98683</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-41.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408186.56</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">13.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Tips &amp; Lotto       89230</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-45.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408141.56</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">13.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               47942</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-122.11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">408019.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">14.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Elgiganten 3080    01514</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-399.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407620.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">14.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Service Kiosken    99156</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407576.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">15.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    11857</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-76.95</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407499.50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">18.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               68957</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-93.74</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407405.76</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">18.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Service Kiosken    99442</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407361.76</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">18.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">SILVAN             29438</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-100.85</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407260.91</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">18.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               51477</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-52.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407208.91</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">18.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Lyngbyvej 74 40442</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-132.11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407076.80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">18.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Irma               94776</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-63.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">407013.80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">18.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Emdrup Kiosk v/Res 54206</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406969.80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">20.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Irma Emdrupvej     22725</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-139.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406830.80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">20.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Service Kiosken    99973</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406786.80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Service Kiosken    00172</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406742.80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    46365</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-32.40</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406710.40</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">VDK EUR     9.50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-71.52</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406638.88</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">VDK EUR     8.50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-63.98</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406574.90</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Istanbul Bazar     57729</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-47.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406527.90</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Elias Slagteri     21885</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-140.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406387.90</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               72683</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-122.25</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406265.65</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Jinghua Shop v/Chu 36804</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-220.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">406045.65</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               57691</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-120.95</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">405924.70</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    49901</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-44.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">405880.70</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">25.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LIDL               58255</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-100.25</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">405780.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">26.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    51369</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-45.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">405735.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">27.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Netto Emdrupvej    52658</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-37.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">405698.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">28.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Magasin, Kgs Nytor 68047</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-450.00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">405248.45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">28.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Magasin, Kgs Nytor 96433</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">-183.60</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">405064.85</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">28.04.2016</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Transfer of salary</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">26543.26</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">431608.11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Executed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">No</Data>
+                </Cell>
+            </Row>
+
+        </Table>
+    </Worksheet>
+</Workbook>

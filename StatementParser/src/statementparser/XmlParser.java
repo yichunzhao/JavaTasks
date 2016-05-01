@@ -8,8 +8,7 @@ package statementparser;
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import java.io.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.xml.sax.SAXException;
 
 /**
  *
@@ -17,25 +16,38 @@ import java.util.logging.Logger;
  */
 public class XmlParser {
 
-    DocumentBuilderFactory factory;
-    DocumentBuilder builder;
-    File inputFile;
+    private DocumentBuilderFactory factory;
+    private DocumentBuilder documentBuilder;
+    private Document document;
 
     public XmlParser(File inputFile) {
         if (inputFile != null) {
             init(inputFile);
+        } else {
+            throw new NullPointerException();
         }
     }
 
     private void init(File inputFile) {
         try {
-            this.factory = DocumentBuilderFactory.newInstance();
-            this.builder = factory.newDocumentBuilder();
-            this.inputFile = inputFile;
+            factory = DocumentBuilderFactory.newInstance();
+            documentBuilder = factory.newDocumentBuilder();
+            document = documentBuilder.parse(inputFile);
+            document.getDocumentElement().normalize();
         } catch (ParserConfigurationException ex) {
-            System.err.println(ex.toString());
+            System.err.println(ex.getMessage());
+        } catch (SAXException ex) {
+            System.err.println(ex.getMessage());
+        } catch (IOException ex) {
+            System.err.println(ex.getMessage());
         }
-
     }
 
+    public Document getDoucment() {
+        return this.document;
+    }
+
+    public Element getElement() {
+        return this.document.getDocumentElement();
+    }
 }

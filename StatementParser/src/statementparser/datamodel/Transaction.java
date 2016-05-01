@@ -5,64 +5,60 @@
  */
 package statementparser.datamodel;
 
-import java.util.Date;
-
 /**
  *
  * @author YNZ
  */
-public class Transaction implements Classifiable {
+public class Transaction {
 
-    private Date date;
-    private String text;
-    private double amount;
-    private double balance;
+    private String date;
+    private String creditor;
+    private String amount;
+    private String balance;
     private String status;
     private String reconciled;
 
-    public Transaction(Date date, String text, double amount, double balance, String status, String reconciled) {
+    public Transaction() {
+    }
+
+    public Transaction(String date, String text, String amount, String balance, String status, String reconciled) {
         this.date = date;
-        this.text = text;
+        this.creditor = text;
         this.amount = amount;
         this.balance = balance;
         this.status = status;
         this.reconciled = reconciled;
     }
-    
-    @Override
-    public String toString() {
-        return date.toString().concat(" " + text + " ").concat(String.valueOf(amount));
-    }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
     public String getText() {
-        return text;
+        return creditor;
     }
 
     public void setText(String text) {
-        this.text = text;
+        this.creditor = text;
     }
 
-    public double getAmount() {
+    public String getAmount() {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 
-    public double getBalance() {
+    public String getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    public void setBalance(String balance) {
         this.balance = balance;
     }
 
@@ -83,8 +79,8 @@ public class Transaction implements Classifiable {
     }
 
     @Override
-    public Category classify() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String toString() {
+        return date + " " + creditor + " " + amount + " " + balance + " " + status + " " + reconciled;
     }
 
 }

@@ -13,17 +13,18 @@ import java.util.List;
  * @author YNZ
  */
 public class Statement {
-    
-    private List<Transaction> list = new ArrayList<>();
+
+    private List<Transaction> list;
 
     public Statement() {
+        list = new ArrayList<Transaction>();
     }
-    
-    public Statement(List<Transaction> list){
+
+    public Statement(List<Transaction> list) {
         list.addAll(list);
     }
-    
-    public void addTransaction(Transaction transaction){
+
+    public void addTransaction(Transaction transaction) {
         this.list.add(transaction);
     }
 
@@ -34,6 +35,5 @@ public class Statement {
     public void setList(List<Transaction> list) {
         this.list = list;
     }
-    
-    
+
 }
