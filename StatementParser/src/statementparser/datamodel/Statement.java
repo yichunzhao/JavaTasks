@@ -17,7 +17,7 @@ public class Statement {
     private List<Transaction> list;
 
     public Statement() {
-        list = new ArrayList<Transaction>();
+        list = new ArrayList<>();
     }
 
     public Statement(List<Transaction> list) {

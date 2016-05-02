@@ -17,6 +17,7 @@ public class Transaction {
     private String balance;
     private String status;
     private String reconciled;
+    private String category;
 
     public Transaction() {
     }
@@ -36,14 +37,6 @@ public class Transaction {
 
     public void setDate(String date) {
         this.date = date;
-    }
-
-    public String getText() {
-        return creditor;
-    }
-
-    public void setText(String text) {
-        this.creditor = text;
     }
 
     public String getAmount() {
@@ -78,9 +71,26 @@ public class Transaction {
         this.reconciled = reconciled;
     }
 
+    public String getCreditor() {
+        return creditor;
+    }
+
+    public void setCreditor(String creditor) {
+        this.creditor = creditor;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+
     @Override
     public String toString() {
-        return date + " " + creditor + " " + amount + " " + balance + " " + status + " " + reconciled;
+        return date + " " + creditor + " " + amount + " " + balance + " " + status + " " + reconciled + " " + category;
     }
 
 }

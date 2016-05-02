@@ -9,6 +9,7 @@ import java.io.File;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import statementparser.datamodel.CategoryAssociated;
 import statementparser.datamodel.Statement;
 import statementparser.datamodel.Transaction;
 
@@ -19,15 +20,16 @@ import statementparser.datamodel.Transaction;
 public class StatementParser extends XmlParser {
 
     private Statement statement;
+    private CategoryAssociated ca;
 
     public StatementParser(File inputFile, Statement statement) {
         super(inputFile);
         this.statement = statement;
+        ca = new CategoryAssociated();
     }
 
     @Override
     public void parsing() {
-        //XmlParser xmlParser = new super(new RawXml().file);
         NodeList rows = getDoucment().getElementsByTagName("Row");
 
         for (int i = 0; i < rows.getLength(); i++) {
@@ -39,11 +41,12 @@ public class StatementParser extends XmlParser {
 
                 Transaction transaction = new Transaction();
                 transaction.setDate(cells.item(0).getTextContent().trim());
-                transaction.setText(cells.item(1).getTextContent().trim());
+                transaction.setCreditor(cells.item(1).getTextContent().trim());
                 transaction.setAmount(cells.item(2).getTextContent().trim());
                 transaction.setBalance(cells.item(3).getTextContent().trim());
                 transaction.setStatus(cells.item(4).getTextContent().trim());
                 transaction.setReconciled(cells.item(5).getTextContent().trim());
+                transaction.setCategory(ca.locate(transaction.getCreditor()).name());
 
                 statement.addTransaction(transaction);
             }
