@@ -36,4 +36,20 @@ public class Statement {
         this.list = list;
     }
 
+    public Transaction getFirstTrans() {
+        Transaction transaction = null;
+        if (list != null) {
+            transaction = list.get(0);
+        }
+        return transaction;
+    }
+
+    public Transaction getLastTrans() {
+        Transaction transaction = null;
+        if (list != null) {
+            transaction = list.get(list.size() - 1);
+        }
+        return transaction;
+    }
+
 }
