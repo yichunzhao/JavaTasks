@@ -14,22 +14,15 @@ import statementparser.datamodel.Transaction;
  */
 public class TransService {
 
-    private Transaction transaction;
-
-    public TransService(Transaction transaction) {
-        this.transaction = transaction;
+    public static String getInitalBal(Transaction transaction) {
+        return transaction.getBalance();
     }
 
-    public double getInitalBal() {
-        double initBal = 0;
-        if (transaction.getBalance() != null) {
-            initBal = Double.valueOf(transaction.getBalance());
-        }
-        return initBal;
-    }
+    public static int isCredit(Transaction transaction) {
+        String amount = transaction.getAmount();
+        System.out.println("amount = " + amount);
 
-    public int isCredit() {
-        return Double.valueOf(transaction.getAmount()).compareTo(0.0);
+        return Double.valueOf(transaction.getAmount()).compareTo(0.0d);
     }
 
 }

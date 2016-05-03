@@ -28,11 +28,11 @@ public class Statement {
         this.list.add(transaction);
     }
 
-    public List<Transaction> getList() {
+    public List<Transaction> geTransactions() {
         return list;
     }
 
-    public void setList(List<Transaction> list) {
+    public void setTransactions(List<Transaction> list) {
         this.list = list;
     }
 

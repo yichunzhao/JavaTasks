@@ -48,7 +48,7 @@ public class Transaction {
     }
 
     public String getBalance() {
-        return balance;
+        return balance.trim();
     }
 
     public void setBalance(String balance) {
