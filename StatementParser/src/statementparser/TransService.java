@@ -5,7 +5,7 @@
  */
 package statementparser;
 
-//import org.omg.IOP.TransactionService;
+
 import statementparser.datamodel.Transaction;
 
 /**
@@ -19,10 +19,14 @@ public class TransService {
     }
 
     public static int isCredit(Transaction transaction) {
-        String amount = transaction.getAmount();
-        System.out.println("amount = " + amount);
-
         return Double.valueOf(transaction.getAmount()).compareTo(0.0d);
+    }
+
+    public static String getCurrentBal(Transaction transaction) {
+        double amount = Double.valueOf(transaction.getAmount());
+        double initalBal = Double.valueOf(transaction.getBalance());
+        double currentBal = initalBal + amount;
+        return String.valueOf(currentBal);
     }
 
 }

@@ -38,6 +38,7 @@ public class StatementParser extends XmlParser {
             if (row.getNodeType() == Element.ELEMENT_NODE) {
                 Element rowElement = (Element) row;
                 NodeList cells = rowElement.getElementsByTagName("Data");
+                
                 if (cells.item(0).getTextContent().trim().equals("Date")) {
                     continue;
                 }

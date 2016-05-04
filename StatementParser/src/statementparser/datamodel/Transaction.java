@@ -9,7 +9,7 @@ package statementparser.datamodel;
  *
  * @author YNZ
  */
-public class Transaction {
+public class Transaction implements Comparable<Transaction> {
 
     private String date;
     private String creditor;
@@ -87,10 +87,14 @@ public class Transaction {
         this.category = category;
     }
 
-
     @Override
     public String toString() {
         return date + " " + creditor + " " + amount + " " + balance + " " + status + " " + reconciled + " " + category;
+    }
+
+    @Override
+    public int compareTo(Transaction o) {
+        return this.getCategory().compareTo(o.getCategory());
     }
 
 }
